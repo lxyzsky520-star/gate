@@ -57,7 +57,7 @@ DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/ct?ips=6&port=8443"
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
-#DEFAULT_EDGE_HOSTS = [
+DEFAULT_EDGE_HOSTS = [
 #    "saas.sin.fan:443",
 #    "www.mfyx.cn:443",
 #    "cf.nyanya.moe:443",
@@ -72,7 +72,7 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 #    "best.hzample.kdns.fr:443",
 #    "ctsg.cfyx.aliyun.20237737.xyz:443",
 #    "china-unicom.cname.cloudflare.468123.xyz:443",
-#]
+]
 
 DATA_CENTER_ORG_KEYWORDS = [
     "GOOGLE", "AMAZON", "AWS", "MICROSOFT", "OVH", "HETZNER", "DIGITALOCEAN",
